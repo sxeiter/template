@@ -1,23 +1,24 @@
 .header {
   padding-top: 40px;
-  padding-bottom: 120px;
+  padding-bottom: 119px;
   color: var(--main-color);
   position: relative;
   z-index: 10;
+  background-image: url(/img/stag-office-mockup.png);
+  background-size: cover;
 }
 
 .header:after {
   content: "";
   display: inline-block;
-  background-image: url(/img/stag-office-mockup.png);
-  background-size: cover;
+
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
-  filter: brightness(0.2);
+  background: #2f324bd9;
 }
 
 .header__top-flex {
@@ -28,6 +29,7 @@
 
 .header__top-box-logo {
   height: 70px;
+  padding: 0;
 }
 
 .header__top-tel {
@@ -46,7 +48,7 @@
   line-height: 19px;
   text-align: center;
   width: 132px;
-  margin-left: 44px;
+  margin-left: 39px;
   border-bottom: 1px solid var(--main-color);
 }
 
@@ -55,7 +57,7 @@
 }
 
 .header__content {
-  padding-top: 120px;
+  padding-top: 83px;
 }
 
 .header__content-flex {

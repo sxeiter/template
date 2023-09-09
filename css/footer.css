@@ -32,12 +32,23 @@
   width: 210px;
   font-weight: 400;
   text-align: center;
+  margin-top: -6px;
 }
 
 .footer__tel {
   margin-bottom: 3px;
   font-size: 24px;
   line-height: 28px;
+}
+
+.footer__center-avtor {
+  width: 180px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+
+  text-align: left;
 }
 
 .footer__link {
@@ -102,7 +113,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 460px) {
   .footer {
     padding-top: 24px;
     padding-bottom: 0;
