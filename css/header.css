@@ -125,6 +125,8 @@
   .header__top-link {
     font-size: 13px;
     line-height: 15px;
+    width: 108px;
+    margin-left: 47px;
   }
 
   .header__content {

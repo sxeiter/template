@@ -77,3 +77,9 @@ label {
   padding: 0 200px;
   margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+  }
+}
